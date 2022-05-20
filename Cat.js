@@ -1,4 +1,5 @@
 function Cat() {
-	String c = 0;
+	this.name = name;
+	this.dead = false;
 }
  module.exports = Cat;
