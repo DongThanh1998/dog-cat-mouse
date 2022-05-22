@@ -4,5 +4,6 @@ function Dog(){
 }
 
 Dog.prototype.die = funtion() {
-	
+	this.isDead = true;
 }
+module.exports = Dog;
