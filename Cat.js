@@ -1,4 +1,4 @@
-function Cat() {
+function Cat(name) {
 	this.name = name;
 	this.dead = false;
 	this.stomach = [];
